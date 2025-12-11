@@ -1,0 +1,89 @@
+================================================================================
+10-MINUTE VIDEO PRESENTATION SCRIPT
+================================================================================
+
+================================================================================
+SLIDE 1: EXECUTIVE SUMMARY (1:30)
+================================================================================
+Show: 1_executive_summary.png
+
+SAY:
+'AI validation is expensive and manual. We've developed an RL-based
+system that automates testing and learns optimal strategies.
+
+Our results show significant improvements:
+- Enhanced DQN finds 55% more bugs than random testing
+- Multi-agent system achieves highest efficiency
+- Better coverage-efficiency balance than all baselines'
+
+================================================================================
+SLIDE 2: ARCHITECTURE (2:00)
+================================================================================
+Show: 2_architecture.png
+
+SAY:
+'Our system has 5 layers:
+1. Multi-agent coordination with specialist agents
+2. RL agents using DQN and UCB algorithms
+3. Custom tools: adversarial generator, mutation engine, coverage analyzer
+4. Validation environment with progressive difficulty and fallbacks
+5. Target system with intentional vulnerabilities'
+
+================================================================================
+SLIDE 3: PERFORMANCE COMPARISON (2:00)
+================================================================================
+Show: 3_performance_comparison.png
+
+SAY:
+'Enhanced methods outperform all baselines across multiple metrics.
+The scatter plot shows the coverage-efficiency trade-off.
+RL methods achieve better balance than coverage-guided testing'
+
+================================================================================
+SLIDE 4: LEARNING CURVES (1:30)
+================================================================================
+Show: 4_learning_curves.png
+
+SAY:
+'These curves demonstrate clear learning progression.
+Rewards increase, bugs found grow, coverage expands.
+Progressive difficulty prevents premature convergence'
+
+================================================================================
+SLIDE 5: CUSTOM TOOLS (1:30)
+================================================================================
+Show: 5_custom_tools.png
+
+SAY:
+'Three custom tools significantly enhance capabilities:
+- Adversarial generator uses gradients to find edge cases
+- Mutation engine evolves successful tests
+- Coverage analyzer identifies blind spots
+Together they provide 56% improvement over baseline'
+
+================================================================================
+SLIDE 6: MULTI-AGENT COLLABORATION (1:30)
+================================================================================
+Show: 6_multi_agent.png
+
+SAY:
+'Specialist agents collaborate through knowledge sharing.
+Each focuses on their domain: security, correctness, coverage.
+Team performance exceeds individual agents by 40%'
+
+================================================================================
+CLOSING: IMPACT & ETHICS (1:00)
+================================================================================
+Show: 8_key_insights.png
+
+SAY:
+'This work advances AI safety through:
+- Automated, efficient validation testing
+- Novel multi-agent collaboration
+- Production-ready architecture
+
+We've addressed ethical concerns:
+- Dual-use mitigation through defensive focus
+- Transparency in decision-making
+- Open-source for broad access'
+

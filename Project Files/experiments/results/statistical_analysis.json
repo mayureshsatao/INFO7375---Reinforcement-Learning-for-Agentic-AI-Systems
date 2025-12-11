@@ -1,0 +1,13 @@
+{
+  "best_baseline": "random",
+  "rl_improvements": {
+    "dqn": {
+      "bugs_improvement": -1.9899999999999984,
+      "coverage_improvement": -0.29710000000000003
+    },
+    "ucb": {
+      "bugs_improvement": 0.0,
+      "coverage_improvement": -0.29710000000000003
+    }
+  }
+}

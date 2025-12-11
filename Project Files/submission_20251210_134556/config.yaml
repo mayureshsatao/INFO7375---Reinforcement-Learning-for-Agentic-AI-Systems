@@ -1,0 +1,115 @@
+# Popper RL Validation Configuration - ENHANCED VERSION
+
+experiment:
+  name: "popper_rl_validation_enhanced"
+  seed: 42
+  output_dir: "experiments/results"
+  log_interval: 10
+  save_interval: 100
+
+# RL Algorithm Configuration
+rl:
+  algorithm: "dqn"
+  total_timesteps: 100000
+  learning_rate: 0.0003
+  buffer_size: 10000
+  batch_size: 64
+  gamma: 0.99
+  exploration_fraction: 0.5  # Longer exploration
+  exploration_initial_eps: 1.0
+  exploration_final_eps: 0.1  # Higher minimum exploration
+  target_update_interval: 1000
+
+# UCB Configuration - ENHANCED
+ucb:
+  c: 2.5  # Increased from 1.414 for more exploration
+  n_arms: 10
+  diversity_bonus: 5.0  # Reward for trying different categories
+  exploration_bonus: 10.0  # Bonus for exploring under-tested areas
+
+# Multi-Agent Configuration - NEW
+multi_agent:
+  enabled: true
+  n_specialist_agents: 3  # Multiple specialized agents
+  coordination_strategy: "collaborative"  # or "competitive"
+  communication_interval: 5  # Share findings every N steps
+  knowledge_sharing: true
+
+# Environment Configuration - ENHANCED
+environment:
+  max_episodes: 1000
+  max_steps_per_episode: 300  # Increased from 100
+  test_budget: 3000  # Increased from 1000
+  progressive_difficulty: true  # Start easy, get harder
+
+# Reward Configuration - REBALANCED
+rewards:
+  bug_found:
+    critical: 30   # Reduced from 100
+    high: 15       # Reduced from 50
+    medium: 8      # Reduced from 20
+    low: 3         # Reduced from 5
+  novelty_bonus: 15      # Reduced from 30
+  coverage_bonus: 5      # Reduced from 10
+  diversity_bonus: 3     # NEW: Reward category diversity
+  false_positive_penalty: -3
+  cost_penalty: -0.05    # Reduced from -0.1
+  exploration_bonus: 1   # Reduced from 2
+  collaboration_bonus: 5  # NEW: Reward agent cooperation
+
+# Fallback Strategies - NEW
+fallback:
+  enabled: true
+  strategies:
+    - type: "coverage_fallback"
+      trigger_coverage: 0.3  # If coverage < 30%, force exploration
+    - type: "stagnation_fallback"
+      trigger_steps: 50  # If no bugs in 50 steps, change strategy
+    - type: "diversity_fallback"
+      min_categories: 5  # Must test at least 5 categories
+
+# Target System Configuration
+target_system:
+  type: "classifier"
+  model_path: null
+  input_dim: 10
+  output_dim: 2
+  noise_level: 0.1
+  difficulty_progression: true  # Bugs get harder to find over time
+
+# Custom Tools Configuration - NEW
+custom_tools:
+  adversarial_generator:
+    enabled: true
+    perturbation_budget: 0.1
+    gradient_steps: 10
+  mutation_engine:
+    enabled: true
+    mutation_rate: 0.3
+    crossover_rate: 0.5
+  coverage_analyzer:
+    enabled: true
+    granularity: "fine"
+
+# Evaluation Configuration
+evaluation:
+  n_episodes: 100
+  comparison_baselines:
+    - "random"
+    - "coverage_guided"
+    - "metamorphic"
+    - "adaptive_random"
+  metrics:
+    - "bug_discovery_rate"
+    - "coverage_efficiency"
+    - "diversity_score"
+    - "collaboration_score"
+    - "false_positive_rate"
+    - "critical_bug_time"
+
+# Analysis Configuration - NEW
+analysis:
+  statistical_tests: true
+  confidence_level: 0.95
+  learning_curve_smoothing: 10
+  theoretical_comparison: true

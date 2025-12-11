@@ -1,0 +1,8 @@
+{
+  "strategy": "adaptive_random",
+  "avg_reward": 1333.3457999999998,
+  "avg_bugs_found": 20.0,
+  "avg_coverage": 0.28870000000000007,
+  "avg_bug_discovery_rate": 0.700996356601948,
+  "std_bugs_found": 0.0
+}

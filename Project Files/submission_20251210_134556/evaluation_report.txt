@@ -1,0 +1,46 @@
+================================================================================
+POPPER RL VALIDATION - EVALUATION REPORT
+================================================================================
+
+PERFORMANCE SUMMARY
+--------------------------------------------------------------------------------
+
+DQN
+  Average Bugs Found: 18.01
+  Average Coverage: 10.00%
+  Bug Discovery Rate: 0.1944
+  Std Bugs Found: 2.52
+
+UCB
+  Average Bugs Found: 20.00
+  Average Coverage: 10.00%
+  Bug Discovery Rate: 1.0000
+  Std Bugs Found: 0.00
+
+RANDOM
+  Average Bugs Found: 20.00
+  Average Coverage: 39.71%
+  Bug Discovery Rate: 0.5162
+  Std Bugs Found: 0.00
+
+COVERAGE_GUIDED
+  Average Bugs Found: 20.00
+  Average Coverage: 37.10%
+  Bug Discovery Rate: 0.5460
+  Std Bugs Found: 0.00
+
+METAMORPHIC
+  Average Bugs Found: 5.36
+  Average Coverage: 10.00%
+  Bug Discovery Rate: 0.0536
+  Std Bugs Found: 2.22
+
+ADAPTIVE_RANDOM
+  Average Bugs Found: 20.00
+  Average Coverage: 28.87%
+  Bug Discovery Rate: 0.7010
+  Std Bugs Found: 0.00
+
+
+================================================================================
+Report generated successfully!

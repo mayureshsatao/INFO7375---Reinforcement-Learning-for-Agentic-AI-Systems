@@ -1,0 +1,112 @@
+[
+  {
+    "category": "adversarial",
+    "index": 0,
+    "pulls": 1,
+    "avg_reward": 3.789,
+    "total_reward": 3.789,
+    "pull_rate": 4.770992366412214e-05,
+    "reward_std": 0.0,
+    "reward_min": 3.789,
+    "reward_max": 3.789
+  },
+  {
+    "category": "edge_case",
+    "index": 1,
+    "pulls": 8,
+    "avg_reward": 13.619132788387802,
+    "total_reward": 108.95306230710241,
+    "pull_rate": 0.0003816793893129771,
+    "reward_std": 8.928913212588705,
+    "reward_min": -0.6916405275174722,
+    "reward_max": 29.682089986991944
+  },
+  {
+    "category": "boundary",
+    "index": 2,
+    "pulls": 16,
+    "avg_reward": 16.123026535396114,
+    "total_reward": 257.96842456633783,
+    "pull_rate": 0.0007633587786259542,
+    "reward_std": 12.358174936221046,
+    "reward_min": -1.112671855211374,
+    "reward_max": 46.40508307437796
+  },
+  {
+    "category": "distribution_shift",
+    "index": 3,
+    "pulls": 1,
+    "avg_reward": 5.565179973983887,
+    "total_reward": 5.565179973983887,
+    "pull_rate": 4.770992366412214e-05,
+    "reward_std": 0.0,
+    "reward_min": 5.565179973983887,
+    "reward_max": 5.565179973983887
+  },
+  {
+    "category": "performance",
+    "index": 4,
+    "pulls": 2,
+    "avg_reward": 8.658144865281113,
+    "total_reward": 17.316289730562225,
+    "pull_rate": 9.541984732824427e-05,
+    "reward_std": 7.187765147726943,
+    "reward_min": 1.4703797175541689,
+    "reward_max": 15.845910013008055
+  },
+  {
+    "category": "logic_error",
+    "index": 5,
+    "pulls": 1,
+    "avg_reward": 1.0734537511509301,
+    "total_reward": 1.0734537511509301,
+    "pull_rate": 4.770992366412214e-05,
+    "reward_std": 0.0,
+    "reward_min": 1.0734537511509301,
+    "reward_max": 1.0734537511509301
+  },
+  {
+    "category": "coverage_guided",
+    "index": 6,
+    "pulls": 1,
+    "avg_reward": 1.26429412004277,
+    "total_reward": 1.26429412004277,
+    "pull_rate": 4.770992366412214e-05,
+    "reward_std": 0.0,
+    "reward_min": 1.26429412004277,
+    "reward_max": 1.26429412004277
+  },
+  {
+    "category": "random",
+    "index": 7,
+    "pulls": 10,
+    "avg_reward": 14.472144915915196,
+    "total_reward": 144.72144915915197,
+    "pull_rate": 0.00047709923664122136,
+    "reward_std": 8.9898230985822,
+    "reward_min": -0.5864562618571256,
+    "reward_max": 31.192348673213168
+  },
+  {
+    "category": "metamorphic",
+    "index": 8,
+    "pulls": 20916,
+    "avg_reward": 20.181659692772655,
+    "total_reward": 422119.59413403284,
+    "pull_rate": 0.9979007633587786,
+    "reward_std": 9.981977635045643,
+    "reward_min": -1.55,
+    "reward_max": 48.7505
+  },
+  {
+    "category": "stress_test",
+    "index": 9,
+    "pulls": 4,
+    "avg_reward": 10.313267791874516,
+    "total_reward": 41.253071167498064,
+    "pull_rate": 0.00019083969465648855,
+    "reward_std": 6.8605880479567904,
+    "reward_min": -0.5584106323292848,
+    "reward_max": 16.698999999999998
+  }
+]

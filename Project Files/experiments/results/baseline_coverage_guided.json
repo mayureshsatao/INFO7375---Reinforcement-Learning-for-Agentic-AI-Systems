@@ -1,0 +1,8 @@
+{
+  "strategy": "coverage_guided",
+  "avg_reward": 1286.3708,
+  "avg_bugs_found": 20.0,
+  "avg_coverage": 0.371,
+  "avg_bug_discovery_rate": 0.5460056415553176,
+  "std_bugs_found": 0.0
+}

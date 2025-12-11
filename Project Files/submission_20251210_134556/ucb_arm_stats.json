@@ -1,0 +1,112 @@
+[
+  {
+    "category": "adversarial",
+    "index": 0,
+    "pulls": 3,
+    "avg_reward": 45.06666666666666,
+    "total_reward": 135.2,
+    "pull_rate": 0.0007481296758104738,
+    "reward_std": 61.386298869445525,
+    "reward_min": 1.64,
+    "reward_max": 131.88
+  },
+  {
+    "category": "edge_case",
+    "index": 1,
+    "pulls": 3997,
+    "avg_reward": 53.24522892169129,
+    "total_reward": 212821.1800000001,
+    "pull_rate": 0.9967581047381546,
+    "reward_std": 6.5720612116984976,
+    "reward_min": 51.44,
+    "reward_max": 81.88000000000001
+  },
+  {
+    "category": "boundary",
+    "index": 2,
+    "pulls": 2,
+    "avg_reward": 26.65,
+    "total_reward": 53.3,
+    "pull_rate": 0.0004987531172069825,
+    "reward_std": 25.189999999999998,
+    "reward_min": 1.46,
+    "reward_max": 51.839999999999996
+  },
+  {
+    "category": "distribution_shift",
+    "index": 3,
+    "pulls": 1,
+    "avg_reward": 1.8199999999999998,
+    "total_reward": 1.8199999999999998,
+    "pull_rate": 0.00024937655860349125,
+    "reward_std": 0.0,
+    "reward_min": 1.8199999999999998,
+    "reward_max": 1.8199999999999998
+  },
+  {
+    "category": "performance",
+    "index": 4,
+    "pulls": 1,
+    "avg_reward": 1.7999999999999998,
+    "total_reward": 1.7999999999999998,
+    "pull_rate": 0.00024937655860349125,
+    "reward_std": 0.0,
+    "reward_min": 1.7999999999999998,
+    "reward_max": 1.7999999999999998
+  },
+  {
+    "category": "logic_error",
+    "index": 5,
+    "pulls": 2,
+    "avg_reward": 26.61,
+    "total_reward": 53.22,
+    "pull_rate": 0.0004987531172069825,
+    "reward_std": 25.17,
+    "reward_min": 1.44,
+    "reward_max": 51.78
+  },
+  {
+    "category": "coverage_guided",
+    "index": 6,
+    "pulls": 1,
+    "avg_reward": 1.7599999999999998,
+    "total_reward": 1.7599999999999998,
+    "pull_rate": 0.00024937655860349125,
+    "reward_std": 0.0,
+    "reward_min": 1.7599999999999998,
+    "reward_max": 1.7599999999999998
+  },
+  {
+    "category": "random",
+    "index": 7,
+    "pulls": 1,
+    "avg_reward": 1.74,
+    "total_reward": 1.74,
+    "pull_rate": 0.00024937655860349125,
+    "reward_std": 0.0,
+    "reward_min": 1.74,
+    "reward_max": 1.74
+  },
+  {
+    "category": "metamorphic",
+    "index": 8,
+    "pulls": 1,
+    "avg_reward": 1.72,
+    "total_reward": 1.72,
+    "pull_rate": 0.00024937655860349125,
+    "reward_std": 0.0,
+    "reward_min": 1.72,
+    "reward_max": 1.72
+  },
+  {
+    "category": "stress_test",
+    "index": 9,
+    "pulls": 1,
+    "avg_reward": 1.7,
+    "total_reward": 1.7,
+    "pull_rate": 0.00024937655860349125,
+    "reward_std": 0.0,
+    "reward_min": 1.7,
+    "reward_max": 1.7
+  }
+]

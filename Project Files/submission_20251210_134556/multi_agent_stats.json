@@ -1,0 +1,35 @@
+{
+  "team_size": 3,
+  "total_bugs_found": 0,
+  "total_tests_conducted": 23418,
+  "team_success_rate": 0.0,
+  "collaborations": 0,
+  "knowledge_base_size": 0,
+  "unique_bug_patterns": 0,
+  "agent_statistics": [
+    {
+      "agent_id": 0,
+      "specialization": "security",
+      "bugs_found": 0,
+      "tests_conducted": 6129,
+      "success_rate": 0.0,
+      "knowledge_shared": 0
+    },
+    {
+      "agent_id": 1,
+      "specialization": "correctness",
+      "bugs_found": 0,
+      "tests_conducted": 7036,
+      "success_rate": 0.0,
+      "knowledge_shared": 0
+    },
+    {
+      "agent_id": 2,
+      "specialization": "coverage",
+      "bugs_found": 0,
+      "tests_conducted": 10253,
+      "success_rate": 0.0,
+      "knowledge_shared": 0
+    }
+  ]
+}

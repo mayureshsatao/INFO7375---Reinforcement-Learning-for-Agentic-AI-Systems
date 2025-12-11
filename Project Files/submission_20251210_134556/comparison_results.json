@@ -1,0 +1,50 @@
+{
+  "dqn": {
+    "strategy": "DQN",
+    "avg_reward": 947.0590000000014,
+    "avg_bugs_found": 18.01,
+    "avg_coverage": 0.09999999999999998,
+    "avg_bug_discovery_rate": 0.19437977783437746,
+    "std_bugs_found": 2.5159292517874987
+  },
+  "ucb": {
+    "strategy": "UCB",
+    "avg_reward": 1065.7000000000005,
+    "avg_bugs_found": 20.0,
+    "avg_coverage": 0.09999999999999998,
+    "avg_bug_discovery_rate": 1.0,
+    "std_bugs_found": 0.0
+  },
+  "random": {
+    "strategy": "random",
+    "avg_reward": 1337.0187999999998,
+    "avg_bugs_found": 20.0,
+    "avg_coverage": 0.3971,
+    "avg_bug_discovery_rate": 0.5162096204335491,
+    "std_bugs_found": 0.0
+  },
+  "coverage_guided": {
+    "strategy": "coverage_guided",
+    "avg_reward": 1286.3708,
+    "avg_bugs_found": 20.0,
+    "avg_coverage": 0.371,
+    "avg_bug_discovery_rate": 0.5460056415553176,
+    "std_bugs_found": 0.0
+  },
+  "metamorphic": {
+    "strategy": "metamorphic",
+    "avg_reward": 406.8999999999994,
+    "avg_bugs_found": 5.36,
+    "avg_coverage": 0.09999999999999998,
+    "avg_bug_discovery_rate": 0.053599999999999995,
+    "std_bugs_found": 2.224949437627741
+  },
+  "adaptive_random": {
+    "strategy": "adaptive_random",
+    "avg_reward": 1333.3457999999998,
+    "avg_bugs_found": 20.0,
+    "avg_coverage": 0.28870000000000007,
+    "avg_bug_discovery_rate": 0.700996356601948,
+    "std_bugs_found": 0.0
+  }
+}

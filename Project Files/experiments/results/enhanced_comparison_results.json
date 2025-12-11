@@ -1,0 +1,100 @@
+{
+  "dqn_enhanced": {
+    "strategy": "DQN_Enhanced",
+    "avg_reward": 1102.760625,
+    "avg_bugs_found": 69.9,
+    "avg_coverage": 0.36999999999999994,
+    "avg_bug_discovery_rate": 0.9176542203598447,
+    "avg_diversity": 0.0,
+    "std_bugs_found": 5.7870545184921145
+  },
+  "ucb_enhanced": {
+    "strategy": "UCB_Enhanced",
+    "avg_reward": 2211.806600000005,
+    "avg_bugs_found": 100.0,
+    "avg_coverage": 0.36999999999999994,
+    "avg_bug_discovery_rate": 0.9298856195009794,
+    "avg_diversity": 0.0,
+    "std_bugs_found": 0.0
+  },
+  "multi_agent": {
+    "strategy": "Multi-Agent",
+    "avg_reward": 2293.699010881189,
+    "avg_bugs_found": 100.0,
+    "avg_coverage": 0.6648000000000001,
+    "avg_bug_discovery_rate": 0.8236802257443059,
+    "avg_diversity": 0.5493193131642085,
+    "std_bugs_found": 0.0,
+    "team_stats": {
+      "team_size": 3,
+      "total_bugs_found": 0,
+      "total_tests_conducted": 23418,
+      "team_success_rate": 0.0,
+      "collaborations": 0,
+      "knowledge_base_size": 0,
+      "unique_bug_patterns": 0,
+      "agent_statistics": [
+        {
+          "agent_id": 0,
+          "specialization": "security",
+          "bugs_found": 0,
+          "tests_conducted": 6129,
+          "success_rate": 0.0,
+          "knowledge_shared": 0
+        },
+        {
+          "agent_id": 1,
+          "specialization": "correctness",
+          "bugs_found": 0,
+          "tests_conducted": 7036,
+          "success_rate": 0.0,
+          "knowledge_shared": 0
+        },
+        {
+          "agent_id": 2,
+          "specialization": "coverage",
+          "bugs_found": 0,
+          "tests_conducted": 10253,
+          "success_rate": 0.0,
+          "knowledge_shared": 0
+        }
+      ]
+    }
+  },
+  "random": {
+    "strategy": "random",
+    "avg_reward": 2140.3129851242643,
+    "avg_bugs_found": 100.0,
+    "avg_coverage": 0.9925,
+    "avg_bug_discovery_rate": 0.6621940695457574,
+    "avg_diversity": 0.9868168296855824,
+    "std_bugs_found": 0.0
+  },
+  "coverage_guided": {
+    "strategy": "coverage_guided",
+    "avg_reward": 2962.51842021368,
+    "avg_bugs_found": 78.81,
+    "avg_coverage": 1.0,
+    "avg_bug_discovery_rate": 0.2627,
+    "avg_diversity": 0.5088025416412784,
+    "std_bugs_found": 3.626830572276571
+  },
+  "metamorphic": {
+    "strategy": "metamorphic",
+    "avg_reward": 2528.211800000008,
+    "avg_bugs_found": 100.0,
+    "avg_coverage": 0.36999999999999994,
+    "avg_bug_discovery_rate": 0.7190412991029161,
+    "avg_diversity": 0.0,
+    "std_bugs_found": 0.0
+  },
+  "adaptive_random": {
+    "strategy": "adaptive_random",
+    "avg_reward": 2057.2938304229483,
+    "avg_bugs_found": 100.0,
+    "avg_coverage": 0.9771999999999998,
+    "avg_bug_discovery_rate": 0.7555956684602598,
+    "avg_diversity": 0.9812052492446022,
+    "std_bugs_found": 0.0
+  }
+}
