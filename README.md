@@ -1,4 +1,6 @@
-# Popper Framework Validation Learning
+# Popper Framework Validation Learning 
+
+Video Link: https://drive.google.com/file/d/1eQwzfzgKsMwc05O2s3Jbr1zClZSWHHbL/view?usp=sharing
 
 Reinforcement Learning for AI System Validation Testing - A comprehensive implementation of RL-based automated testing agents that learn optimal strategies for discovering bugs and validating AI systems.
 
